@@ -39,6 +39,8 @@ class ViewController: UIViewController {
         number = number/number
         label.text = String(number)
     }
+    
+    //clear用
     @IBAction func clear() {
         number = 0
         label.text = String(number)
