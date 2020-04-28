@@ -35,6 +35,7 @@ class ViewController: UIViewController {
         label.text = String(number)
         
     }
+    // waru
     @IBAction func waru() {
         number = number/number
         label.text = String(number)
