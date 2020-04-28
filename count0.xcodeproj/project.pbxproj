@@ -15,6 +15,8 @@
 		534F3AD924571FFE0050BE31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534F3AD724571FFE0050BE31 /* LaunchScreen.storyboard */; };
 		534F3AE424571FFE0050BE31 /* count0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F3AE324571FFE0050BE31 /* count0Tests.swift */; };
 		534F3AEF24571FFE0050BE31 /* count0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F3AEE24571FFE0050BE31 /* count0UITests.swift */; };
+		534F3AFD2457B9840050BE31 /* haikei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 534F3AFC2457B9840050BE31 /* haikei.jpg */; };
+		534F3B012457C14B0050BE31 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 534F3B002457C14B0050BE31 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		534F3AEA24571FFE0050BE31 /* count0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = count0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		534F3AEE24571FFE0050BE31 /* count0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = count0UITests.swift; sourceTree = "<group>"; };
 		534F3AF024571FFE0050BE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		534F3AFC2457B9840050BE31 /* haikei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haikei.jpg; sourceTree = "<group>"; };
+		534F3B002457C14B0050BE31 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		534F3ACB24571FFB0050BE31 /* count0 */ = {
 			isa = PBXGroup;
 			children = (
+				534F3B002457C14B0050BE31 /* icon.png */,
+				534F3AFC2457B9840050BE31 /* haikei.jpg */,
 				534F3ACC24571FFB0050BE31 /* AppDelegate.swift */,
 				534F3ACE24571FFB0050BE31 /* SceneDelegate.swift */,
 				534F3AD024571FFB0050BE31 /* ViewController.swift */,
@@ -232,6 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				534F3AFD2457B9840050BE31 /* haikei.jpg in Resources */,
+				534F3B012457C14B0050BE31 /* icon.png in Resources */,
 				534F3AD924571FFE0050BE31 /* LaunchScreen.storyboard in Resources */,
 				534F3AD624571FFE0050BE31 /* Assets.xcassets in Resources */,
 				534F3AD424571FFB0050BE31 /* Main.storyboard in Resources */,
@@ -435,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XJ6K9Z9DL9;
 				INFOPLIST_FILE = count0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XJ6K9Z9DL9;
 				INFOPLIST_FILE = count0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
